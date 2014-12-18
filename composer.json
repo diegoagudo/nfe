@@ -1,0 +1,22 @@
+{
+    "name": "agudo/nfe",
+    "type": "library",
+    "description": "Classe de integração de NFe Municipais que utilizam o sistema SIGISS",
+    "keywords": ["nfe", "sigiss", "nota fiscal", "nota", "fiscal", "nota fiscal municipal"],
+    "homepage": "https://github.com/diegoagudo/nfe.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Diego Agudo",
+            "email": "diego@agudo.eti.br",
+            "homepage": "https://github.com/diegoagudo/"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+	"fergusean/nusoap": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "Agudo": "src" }
+    }
+}
